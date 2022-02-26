@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1440px) {}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 1024px) {}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+    .navbar-light .navbar-toggler-icon {background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 0.55)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");}
+    .navbar-toggler {border: none;}
+    .navigationbar {padding-top: 0px; padding-bottom: 0px;}
+    .navbar-dark .navbar-toggler {border-color: transparent;}
+    .hero-banner {padding: 120px 0px 50px;}
+    .navbar-toggler:focus {box-shadow: none;}
+    .navigationbar .navbar-expand-lg .navbar-nav .nav-link {padding-left: 0px;}
+    .hero-banner h1 {font-size: 46px;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+    .navigationbar .bg-blue {padding-top: 15px; padding-bottom: 15px;}
+    .hero-banner h1 {font-size: 48px; margin-bottom: 20px;}
+    .hero-banner img {margin-top: 30px;}
+    .about {background-image: none;}
+    footer h4 {margin-bottom: 20px;}
+    .footer-copyright p {font-size: 14px;}
+}
+
+@media only screen and (max-width: 375px) {}
